@@ -1,0 +1,31 @@
+{
+    "language": "zh-hans",
+    "plugins": [
+        "-sharing",
+        "livereload",
+        "highlight",
+        "search",
+        "fontsettings",
+        "toggle-chapters",
+        "github",
+        "code",
+        "tbfed-pagefooter",
+        "splitter"
+    ],
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/juzldream"
+        }
+    },
+    "code": {
+        "copyButtons": false
+    },
+    "tbfed-pagefooter": {
+        "copyright": "Copyright &copy 蝉溪一梦 2019",
+        "modify_label": "本书发布时间：2020-06-08",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+}
