@@ -14,7 +14,7 @@
 
 ![](https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_95.svg)
 
-##### 介绍
+#### 介绍
 
 openpyxl 是一个 Python 库用于读/写 Excel 2010 xlsx / xlsm / xltx / xltm文件。
 
@@ -137,19 +137,33 @@ Sometimes you might want to work with the checkout of a particular version. This
 	- [玩儿数据]()
 		- [访问一个单元格]()
 		- [访问多个单元]()
-		- [只获取值]
+		- [只获取值]()
 	- [存储数据]()
 		- [保存到文件]()
 		- [另存为流]()
 	- [从文件加载]()
 
-- 菜单
-	- Simple usage
-	- Write a workbook
-	- Read an existing workbook
+##### 菜单
+
+- 简易使用
+	- [写一个工作簿]()
+	- [读一个工作簿]()
 	- Using number formats
 	- Using formulae
 	- Merge / Unmerge cells
 	- Inserting an image
 	- Fold (outline)
-- 发行说明
+
+##### 性能
+
+- [性能]()
+	-[Benchmarks]()
+		- Write Performance
+		- Read Performance
+		- Parallelisation
+
+
+##### 发行说明
+
+
+
