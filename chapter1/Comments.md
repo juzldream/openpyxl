@@ -2,23 +2,10 @@
 
 :exclamation: 警告
 
-Openpyxl currently supports the reading and writing of comment text only. Formatting information is lost. Comment dimensions are lost upon reading, but can be written. Comments are not currently supported if read_only=True is used.
+Openpyxl当前仅支持阅读和编写评论文本。 格式化信息丢失。 注释尺寸在阅读时会丢失，但可以书写。 如果使用read_only = True，则当前不支持注释。
 
 
-#### Adding a comment to a cell
+#### 向单元格增加命令
 
-Comments have a text attribute and an author attribute, which must both be set
+注释具有text属性和author属性，必须同时设置
 
-```
->>> from openpyxl import Workbook
->>> from openpyxl.comments import Comment
->>> wb = Workbook()
->>> ws = wb.active
->>> comment = ws["A1"].comment
->>> comment = Comment('This is the comment text', 'Comment Author')
->>> comment.text
-'This is the comment text'
->>> comment.author
-'Comment Author'
-
-```
